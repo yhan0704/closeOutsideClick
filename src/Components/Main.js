@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Footer from "./Footer";
 import About from "./About";
-import Blog from "./Blog";
-import Projects from "./Projects";
 import Contact from "./Contact";
 
 export default function Navigation() {
@@ -46,20 +44,6 @@ export default function Navigation() {
           </div>
         ) : null}
         <div>{open && value === "About" ? <About /> : null}</div>
-
-        {!open ? (
-          <div className="navName" onClick={clickedHamburger}>
-            Projects
-          </div>
-        ) : null}
-        <div>{open && value === "Projects" ? <Projects /> : null}</div>
-
-        {!open ? (
-          <div className="navName" onClick={clickedHamburger}>
-            Blog
-          </div>
-        ) : null}
-        <div>{open && value === "Blog" ? <Blog /> : null}</div>
 
         {!open ? (
           <div className="navName" onClick={clickedHamburger}>
