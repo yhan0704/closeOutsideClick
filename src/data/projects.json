@@ -1,0 +1,184 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "GoPark",
+      "image": "https://www.publicdomainpictures.net/pictures/30000/velka/bench-in-a-park.jpg",
+      "webImage": [
+        {
+          "name": "photo-1",
+          "url": "https://miro.medium.com/max/875/1*SGjSM95--nARpT8GKgPSnQ.png"
+        },
+        {
+          "name": "photo-2",
+          "url": "https://miro.medium.com/max/700/1*O3tMHsQTnUMrlW9u_3vOOg.png"
+        },
+        {
+          "name": "photo-3",
+          "url": "https://cdn-images-1.medium.com/max/800/1*kTeE5RSVuPWIMUTYRU_bGQ.png"
+        }
+      ],
+      "built": [
+        "React",
+        "Redux",
+        "Ruby on Rails",
+        "Postgres",
+        "CSS",
+        "Bootstrap",
+        "Mapbox",
+        "Particles.js",
+        "react-super-responsive-table"
+      ],
+      "paragraph": [
+        "This project is that inform Park near the DMV areas and Keep tracking which Park user have been.",
+        "Fetched “Park API” back-end using Ruby on Rails, ",
+        "Built API front end(Redux, React) / Stylish(CSS, Bootstrap), and",
+        "Developed Database using Postgres"
+      ],
+      "title": "Tracking Park! ",
+      "front": "https://github.com/yhan0704/GoParkApp-Frontend",
+      "back": "https://github.com/yhan0704/GoParkApp-Backend",
+      "demo": "https://frontpark.herokuapp.com/"
+    },
+    {
+      "id": 2,
+      "name": "HarryPotter",
+      "image": "https://s0.geograph.org.uk/geophotos/06/38/10/6381095_97380512.jpg",
+      "webImage": [
+        {
+          "name": "photo-1",
+          "url": "https://miro.medium.com/max/875/1*MgpZjTB8K1AKwOqkgpBH2g.png"
+        },
+        {
+          "name": "photo-2",
+          "url": "https://miro.medium.com/max/875/1*Kw1J2TgoxrWIKksOOgmFnw.png"
+        },
+        {
+          "name": "photo-3",
+          "url": "https://miro.medium.com/max/875/1*3Rw1qr_XSdMLBOklqb974w.png"
+        }
+      ],
+      "built": ["React", "CSS", "Ruby on Rails", "Semantic"],
+      "title": "Find out your favorite!",
+      "paragraph": [
+        "This project will inform Harry Potter’s characters, spells and users can add their favorite.",
+        "Fetched Harry Potter’s API for back-end using Ruby on Rails, ",
+        "Built API front end using React, and Style using Semantic and CSS"
+      ],
+      "front": "https://github.com/yhan0704/-harry_frontend",
+      "back": "https://github.com/yhan0704/harry_backend",
+      "demo": "https://harryfrontend.herokuapp.com/"
+    },
+    {
+      "id": 3,
+      "name": "Portfolio",
+      "image": "https://cdn.pixabay.com/photo/2017/10/31/00/23/portfolio-2903909_960_720.png",
+      "webImage": [
+        {
+          "name": "photo-1",
+          "url": "https://miro.medium.com/max/700/1*hY-VggsvVxT61NUuN57L1A.png"
+        }
+      ],
+      "built": [
+        "React",
+        "Redux",
+        "Nasted Router",
+        "EmailJS",
+        "React Bootstrap"
+      ],
+      "title": "My Portfolio",
+      "paragraph": [
+        "Developed responsive web design.",
+        "Built with self API, Deployed with AWS CloudFront, and ",
+        "Used domain with AWS Route 53"
+      ],
+      "front": "https://github.com/yhan0704/portfolio"
+    },
+    {
+      "id": 4,
+      "name": "Calculator",
+      "image": "https://miro.medium.com/max/1050/1*i9qbjPrKtD2mcdPfPSgCgQ.png",
+      "webImage": [
+        {
+          "name": "photo-1",
+          "url": "https://miro.medium.com/max/1050/1*i9qbjPrKtD2mcdPfPSgCgQ.png"
+        }
+      ],
+      "built": ["React", "React Hook", "CSS"],
+      "title": "Calculate!",
+      "paragraph": [
+        "One of my personal project.",
+        "provided simple mathematical functions in a beautifully designed app",
+        "Built with originally with HTML, CSS, React"
+      ],
+      "front": "https://github.com/yhan0704/calculator"
+    },
+    {
+      "id": 5,
+      "name": "Todo-List",
+      "image": "https://miro.medium.com/max/875/1*svNEO9Pkkh9s0QhG0jctbA.png",
+      "webImage": [
+        {
+          "name": "photo-1",
+          "url": "https://miro.medium.com/max/700/1*svNEO9Pkkh9s0QhG0jctbA.png"
+        }
+      ],
+      "built": ["React", "Custom Hook", "Context API", "Styled-Components"],
+      "title": "Todo-List",
+      "paragraph": [
+        "One of my personal project.",
+        "This Todo app will not make you to forget what you need to do.",
+        "Provided add, delete, and update tasks."
+      ],
+      "front": "https://github.com/yhan0704/todolist"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "name": "Ruby Faker",
+      "image": "https://freesvg.org/img/Fake-Real-Black.png",
+      "title": "Faker generates data at random",
+      "blogUrl": "https://medium.com/@hanyc1205/faker-gem-ruby-on-rails-c848fd252869"
+    },
+    {
+      "id": 2,
+      "name": "Favascript-Binding",
+      "image": "https://storage.needpix.com/rsynced_images/knot-30531_1280.png",
+      "title": "Invoked at the global scope",
+      "blogUrl": "https://medium.com/@hanyc1205/javascript-bind-f13176466c45"
+    },
+    {
+      "id": 3,
+      "name": "React Router",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
+      "title": "Single Page Application",
+      "blogUrl": "https://medium.com/@hanyc1205/react-router-4185ab5c0a7d"
+    },
+    {
+      "id": 4,
+      "name": "Grid CSS",
+      "image": "https://storage.needpix.com/rsynced_images/grid-1138243_1280.png",
+      "title": "Layouts more easily",
+      "blogUrl": "https://medium.com/@hanyc1205/grid-css-88103180217b"
+    }
+  ],
+  "navs": [
+    {
+      "id": 1,
+      "name": "About"
+    },
+    {
+      "id": 1,
+      "name": "Project"
+    },
+    {
+      "id": 1,
+      "name": "Blog"
+    },
+    {
+      "id": 1,
+      "name": "Contact"
+    }
+  ]
+}

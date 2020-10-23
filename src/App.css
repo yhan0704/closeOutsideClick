@@ -1,0 +1,137 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: black;
+  height: 100vh;
+  /* background-image: url("./Images/keyboard.jpg");
+  background-position: center;
+  background-size: cover; */
+}
+
+.appContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main */
+.mainContainer{
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.mainContainer .mainText{
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  margin: 0 auto;
+  margin-bottom:5%;
+  width:80%;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.mainContainer nav {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer .navName{
+  color:white;
+  cursor: pointer;
+}
+
+.mainContainer ul{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.mainContainer ul li{
+  list-style: none;
+}
+
+.mainContainer nav .navName{
+  padding:1% 5%; 
+  border: 1px solid wheat;
+} 
+
+/* About */
+.aboutContainer{
+  background-color: bisque;
+  width:100vh;
+  height:70vh;
+}
+
+.aboutContainer .aboutMain{
+  font-size:1rem;
+  margin:0 5%;
+}
+
+.aboutContainer h3{
+  border-bottom: solid 1px black;
+  padding:3% 0 1% 0;
+  margin-bottom: 2%;
+  text-align: left;
+  margin-left:5%;
+  margin-right: 75%;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+
+/* Contact */
+.contactContainer {
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom:5%;
+  width:100vh;
+  height:70vh;
+}
+
+.contactContainer .p-heading1 {
+  text-align: center;
+  color:white;
+}
+
+.contactContainer .contactMain {
+  background-color: blanchedalmond;
+  border-radius: 2%;
+  text-align: center;
+  padding: 2%;
+}
+
+.contactContainer .contactMain input {
+  border: none;
+  border-radius: 2%;
+  padding: 1%;
+  width: 70%;
+  margin:2%;
+  height: 45px;
+}
+
+.contactContainer .contactMain h3{
+  color:black;
+  padding-top:2%;
+  text-align: center;
+}
+
+.contactContainer .contactMain textarea {
+  width: 70%;
+  height: 20vh;
+  padding: 1%;
+  border: none;
+}
+
+.contactContainer .contactMain .submitButton {
+  background-color: darksalmon;
+  border: none;
+  margin-top: 2%;
+  padding: 3px;
+  font-size: 1.1rem;
+  width:30%;
+  height: 40px;
+}
